@@ -36,29 +36,23 @@ packages:
   aud_midi_core:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: "1817b0c245c194cd9d4e76879269d30a011cf5e2"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_core.git"
-    source: git
+      path: "../aud_midi_core"
+      relative: true
+    source: path
     version: "0.0.0"
   aud_midi_rtp:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: dae36c8cae645b6971dd21f2549a6b8f69766036
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_rtp.git"
-    source: git
+      path: "../aud_midi_rtp"
+      relative: true
+    source: path
     version: "0.0.0"
   aud_midi_standard:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: cfde40914a39f426ea7cd2d8003564b4dbffa387
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_standard.git"
-    source: git
+      path: "../aud_midi_standard"
+      relative: true
+    source: path
     version: "0.0.0"
   boolean_selector:
     dependency: transitive
