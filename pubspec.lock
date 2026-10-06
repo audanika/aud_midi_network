@@ -36,26 +36,29 @@ packages:
   aud_midi_core:
     dependency: "direct main"
     description:
-      name: aud_midi_core
-      sha256: "717f222f28aca3ebe7ab9b6e7d331fc23ffb5a3385dcfaadb0d62b1ef5ba08f8"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      resolved-ref: "1817b0c245c194cd9d4e76879269d30a011cf5e2"
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audanika/aud_midi_core.git"
+    source: git
     version: "0.0.0"
   aud_midi_rtp:
     dependency: "direct main"
     description:
-      name: aud_midi_rtp
-      sha256: "02cdfebe44a642fddc05cc5fab95e1a7afea38eb1155ac32b4cbaa3f2a51a06e"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      resolved-ref: dae36c8cae645b6971dd21f2549a6b8f69766036
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audanika/aud_midi_rtp.git"
+    source: git
     version: "0.0.0"
   aud_midi_standard:
     dependency: "direct main"
     description:
-      name: aud_midi_standard
-      sha256: "395e47c0abf122d9e20e25ef15b7b542f1e9e74041b30e50ebf76b532ea93b55"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      resolved-ref: cfde40914a39f426ea7cd2d8003564b4dbffa387
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audanika/aud_midi_standard.git"
+    source: git
     version: "0.0.0"
   boolean_selector:
     dependency: transitive
