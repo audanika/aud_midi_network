@@ -33,6 +33,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.1"
+  aud_midi_core:
+    dependency: "direct main"
+    description:
+      name: aud_midi_core
+      sha256: "717f222f28aca3ebe7ab9b6e7d331fc23ffb5a3385dcfaadb0d62b1ef5ba08f8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.0"
+  aud_midi_rtp:
+    dependency: "direct main"
+    description:
+      name: aud_midi_rtp
+      sha256: "02cdfebe44a642fddc05cc5fab95e1a7afea38eb1155ac32b4cbaa3f2a51a06e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.0"
+  aud_midi_standard:
+    dependency: "direct main"
+    description:
+      name: aud_midi_standard
+      sha256: "395e47c0abf122d9e20e25ef15b7b542f1e9e74041b30e50ebf76b532ea93b55"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.0"
   boolean_selector:
     dependency: transitive
     description:

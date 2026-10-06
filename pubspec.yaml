@@ -16,3 +16,7 @@ dev_dependencies:
   helix: ^1.11.0
   lints: ^6.1.0
   test: ^1.32.0
+dependencies:
+  aud_midi_core: ^0.0.0
+  aud_midi_rtp: ^0.0.0
+  aud_midi_standard: ^0.0.0
