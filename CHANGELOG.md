@@ -5,6 +5,7 @@
 ### Added
 
 - Add boilerplate
+- Add package dependencies
 
 ### Changed
 
