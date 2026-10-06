@@ -13,7 +13,7 @@ Teil der aud_midi-Familie, siehe [aud_midi](https://github.com/audanika/aud_midi
 
 ## Stand
 
-Nur Boilerplate. Die Implementierung folgt in späteren Tickets, siehe den Plan in [aud_midi](https://github.com/audanika/aud_midi/blob/main/blog/2026/10/01_plan_the_package_implementation.md).
+Nur Boilerplate. Die Implementierung folgt in späteren Tickets, siehe den Plan in [audanika_midi_pm](https://github.com/audanika/audanika_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md).
 
 ## Installation
 
