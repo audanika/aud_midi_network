@@ -1,0 +1,23 @@
+// @license
+// Copyright (c) Audanika
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "aud_midi_network",
+  "summary": "Network MIDI sessions in Dart: AppleMIDI on top of aud_midi_rtp and Network MIDI 2.0, both over UDP with mDNS discovery.",
+  "domain": [
+    "MIDI over IP networks"
+  ],
+  "interfaces": {
+    "uses": {
+      "aud_midi_core": "backend contracts",
+      "aud_midi_rtp": "RTP-MIDI payload and journal",
+      "aud_midi_standard": "messages"
+    },
+    "usedBy": {
+      "aud_midi": "consumes this package"
+    }
+  }
+}
