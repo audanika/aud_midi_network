@@ -33,3 +33,5 @@ dependencies:
       url: git@github.com:audanika/aud_midi_standard.git
       tag_pattern: "{{version}}"
     version: ^0.0.0
+  crypto: ^3.0.7
+  multicast_dns: ^0.3.3+1

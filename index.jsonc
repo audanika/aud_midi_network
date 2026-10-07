@@ -6,18 +6,22 @@
 
 {
   "name": "aud_midi_network",
-  "summary": "Network MIDI sessions in Dart: AppleMIDI on top of aud_midi_rtp and Network MIDI 2.0, both over UDP with mDNS discovery.",
+  "summary": "Network MIDI sessions in pure Dart over UDP: AppleMIDI (RTP-MIDI with recovery journal via aud_midi_rtp) and Network MIDI 2.0, mDNS browsing, a backend that turns connections into ports, a lossy UDP proxy for tests.",
   "domain": [
-    "MIDI over IP networks"
+    "MIDI over IP networks",
+    "AppleMIDI session protocol, Network MIDI 2.0 (M2-124-UM)",
+    "DNS-SD browsing"
   ],
   "interfaces": {
     "uses": {
-      "aud_midi_core": "backend contracts",
-      "aud_midi_rtp": "RTP-MIDI payload and journal",
-      "aud_midi_standard": "messages"
+      "aud_midi_core": "MidiBackend, MidiNetworkBackend, MidiServiceAdvertiser, MidiClock, MidiTimerFactory, MidiException",
+      "aud_midi_rtp": "MidiRtpSender/MidiRtpReceiver, MidiRtpClock: RTP-MIDI payload and recovery journal",
+      "aud_midi_standard": "network/port models, MidiPacket, MidiByteParser, MidiByteEncoder, Ump",
+      "multicast_dns": "mDNS queries (PTR, SRV, A/AAAA)",
+      "crypto": "SHA-256 for Network MIDI 2.0 authentication"
     },
     "usedBy": {
-      "aud_midi": "consumes this package"
+      "aud_midi": "MidiNetworkSessionBackend on Android, Windows, Linux; OS backends pass their MidiServiceAdvertiser"
     }
   }
 }

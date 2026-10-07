@@ -8,11 +8,12 @@ import 'package:aud_midi_network/aud_midi_network.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('Example', () {
-    group('greet()', () {
-      test('should greet the name', () {
-        expect(const Example('World').greet(), 'Hello World!');
-      });
+  group('MidiNetworkSession', () {
+    test('is implemented by the sessions of both protocols', () {
+      expect(
+        MidiNetworkMidi2Session(localName: 'S'),
+        isA<MidiNetworkSession>(),
+      );
     });
   });
 }
