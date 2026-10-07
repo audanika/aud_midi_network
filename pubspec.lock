@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: fdcd9f70f9eb80df3bc5ed0fa67280df2595fd481948df8a9ab082e6a40ad04b
+      sha256: "48e48f73a431eb269eec66d243a63a07ed90ef9417a74047a3b98d52338626ad"
       url: "https://pub.dev"
     source: hosted
-    version: "108.0.0"
+    version: "109.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: a51c769bff3b6dfbe9d60199b8606d808290702a296bef0c26a4ca391d414e46
+      sha256: "6d377901d198536b648172974d9d4f277910502cad92193466869cac0ff34990"
       url: "https://pub.dev"
     source: hosted
-    version: "14.4.0"
+    version: "14.5.0"
   args:
     dependency: transitive
     description:
@@ -36,30 +36,27 @@ packages:
   aud_midi_core:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: "1817b0c245c194cd9d4e76879269d30a011cf5e2"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_core.git"
-    source: git
-    version: "0.0.0"
+      name: aud_midi_core
+      sha256: "64f7fbdc03ee1c3454b6d316acb1f0aeb6e84a8956839ccccdc019bc002c9528"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   aud_midi_rtp:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: dae36c8cae645b6971dd21f2549a6b8f69766036
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_rtp.git"
-    source: git
-    version: "0.0.0"
+      name: aud_midi_rtp
+      sha256: "3c4d1185ae4070d4de3a6eaf7737698d788fdc4e1ee4c5c71d42b3150a75f2d3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   aud_midi_standard:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: cfde40914a39f426ea7cd2d8003564b4dbffa387
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audanika/aud_midi_standard.git"
-    source: git
-    version: "0.0.0"
+      name: aud_midi_standard
+      sha256: "6ce86e854c3e2f510b6e48de194e4a1b020f2c4568e5fa52e464771847b6043e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -109,7 +106,7 @@ packages:
     source: hosted
     version: "1.15.1"
   crypto:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: crypto
       sha256: c8ea0233063ba03258fbcf2ca4d6dadfefe14f02fab57702265467a19f27fadf
@@ -348,6 +345,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  multicast_dns:
+    dependency: "direct main"
+    description:
+      name: multicast_dns
+      sha256: "134668a9605c747322d8c3eb0e89a4c0cbdedb29f8d2d5ae29d14daef724987b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.3+1"
   node_preamble:
     dependency: transitive
     description:
