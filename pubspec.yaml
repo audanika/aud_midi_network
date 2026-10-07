@@ -1,6 +1,6 @@
 name: aud_midi_network
 description: "AppleMIDI and Network MIDI 2.0 sessions over UDP with mDNS discovery"
-version: 0.0.0
+version: 0.1.0
 homepage: https://github.com/audmidi/aud_midi_network
 repository: https://github.com/audmidi/aud_midi_network
 topics:
