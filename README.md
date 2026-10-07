@@ -2,7 +2,7 @@
 
 Network MIDI sessions in Dart: AppleMIDI on top of aud_midi_rtp and Network MIDI 2.0, both over UDP with mDNS discovery.
 
-Part of the aud_midi family, see [aud_midi](https://github.com/audanika/aud_midi).
+Part of the aud_midi family, see [aud_midi](https://github.com/audmidi/aud_midi).
 
 ## Goals
 
@@ -40,7 +40,7 @@ Windows and Android, without Flutter.
   closed.
 - **Backend** `MidiNetworkSessionBackend` (name `netmidi`) implements
   `MidiBackend` and `MidiNetworkBackend` of
-  [aud_midi_core](https://github.com/audanika/aud_midi_core): one session
+  [aud_midi_core](https://github.com/audmidi/aud_midi_core): one session
   of one protocol; each connection becomes an input and an output port
   (transport `network`, `timestampsIn`; byte ports for AppleMIDI, UMP
   ports for Network MIDI 2.0); port events on connect and disconnect;
@@ -88,7 +88,7 @@ prompt for the UDP ports; MSIX needs `internetClient` and
 `privateNetworkClientServer`. Linux sandboxes: Snap `network` and
 `avahi-control`, Flatpak `--system-talk-name=org.freedesktop.Avahi`.
 
-See the plan in [aud_midi_pm](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md).
+See the plan in [aud_midi_pm](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md).
 
 ## Installation
 
